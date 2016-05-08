@@ -1,0 +1,539 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MRTStationDetailViewControllerTwo"
+provides-nominal:
+- "C9Homework233MRTStationDetailViewControllerTwo"
+provides-member:
+- ["C9Homework233MRTStationDetailViewControllerTwo", ""]
+provides-dynamic-lookup:
+- "mrtLineName"
+- "updateValues"
+- "MRTStationNameTitle"
+- "viewDidLoad"
+- "mrtLineColor"
+- "MRTLineNameLabel"
+- "viewWillAppear"
+- "MRTStationNameLabel"
+depends-top-level:
+- "Array"
+- "String"
+- "UINavigationItem"
+- "MRTStation"
+- "Bool"
+- "UILabel"
+- "UIViewController"
+- "MRTStationDetailViewControllerTwo"
+- "UIColor"
+depends-member:
+- ["Ps9AnyObject", "MRTLineNameLabel"]
+- ["Ps9AnyObject", "MRTStationNameLabel"]
+- ["Ps9AnyObject", "MRTStationNameTitle"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isViewLoaded"]
+- ["Ps9AnyObject", "mrtLineColor"]
+- ["Ps9AnyObject", "mrtLineName"]
+- ["Ps9AnyObject", "mrtStation"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", "updateValues"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Vs10ArraySlice", "SubSequence"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- ["Ps11CVarArgType", "MRTLineNameLabel"]
+- ["Ps11CVarArgType", "MRTStationNameLabel"]
+- ["Ps11CVarArgType", "MRTStationNameTitle"]
+- !private ["Ps11CVarArgType", "backgroundColor"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isViewLoaded"]
+- ["Ps11CVarArgType", "mrtLineColor"]
+- ["Ps11CVarArgType", "mrtLineName"]
+- ["Ps11CVarArgType", "mrtStation"]
+- !private ["Ps11CVarArgType", "text"]
+- !private ["Ps11CVarArgType", "title"]
+- ["Ps11CVarArgType", "updateValues"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", "viewWillAppear"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "MRTLineNameLabel"]
+- ["Ps28CustomDebugStringConvertible", "MRTStationNameLabel"]
+- ["Ps28CustomDebugStringConvertible", "MRTStationNameTitle"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isViewLoaded"]
+- ["Ps28CustomDebugStringConvertible", "mrtLineColor"]
+- ["Ps28CustomDebugStringConvertible", "mrtLineName"]
+- ["Ps28CustomDebugStringConvertible", "mrtStation"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "title"]
+- ["Ps28CustomDebugStringConvertible", "updateValues"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- ["Ps23CustomStringConvertible", "MRTLineNameLabel"]
+- ["Ps23CustomStringConvertible", "MRTStationNameLabel"]
+- ["Ps23CustomStringConvertible", "MRTStationNameTitle"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isViewLoaded"]
+- ["Ps23CustomStringConvertible", "mrtLineColor"]
+- ["Ps23CustomStringConvertible", "mrtLineName"]
+- ["Ps23CustomStringConvertible", "mrtStation"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "title"]
+- ["Ps23CustomStringConvertible", "updateValues"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- ["Ps9Equatable", "MRTLineNameLabel"]
+- ["Ps9Equatable", "MRTStationNameLabel"]
+- ["Ps9Equatable", "MRTStationNameTitle"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isViewLoaded"]
+- ["Ps9Equatable", "mrtLineColor"]
+- ["Ps9Equatable", "mrtLineName"]
+- ["Ps9Equatable", "mrtStation"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "title"]
+- ["Ps9Equatable", "updateValues"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- ["Ps8Hashable", "MRTLineNameLabel"]
+- ["Ps8Hashable", "MRTStationNameLabel"]
+- ["Ps8Hashable", "MRTStationNameTitle"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isViewLoaded"]
+- ["Ps8Hashable", "mrtLineColor"]
+- ["Ps8Hashable", "mrtLineName"]
+- ["Ps8Hashable", "mrtStation"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "title"]
+- ["Ps8Hashable", "updateValues"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["V9Homework210MRTStation", "name"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "Array"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "Bool"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "MRTLineNameLabel"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "MRTStation"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "MRTStationNameLabel"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "MRTStationNameTitle"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "String"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "UIColor"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "UILabel"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "UINavigationItem"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "deinit"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "init"]
+- !private ["C9Homework233MRTStationDetailViewControllerTwo", "isViewLoaded"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "mrtLineColor"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "mrtLineName"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "mrtStation"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "updateValues"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "viewDidLoad"]
+- ["C9Homework233MRTStationDetailViewControllerTwo", "viewWillAppear"]
+- !private ["P12ObjectMapper8Mappable", "name"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "subscript"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "subscript"]
+- ["PSo8NSCoding", "MRTLineNameLabel"]
+- ["PSo8NSCoding", "MRTStationNameLabel"]
+- ["PSo8NSCoding", "MRTStationNameTitle"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isViewLoaded"]
+- ["PSo8NSCoding", "mrtLineColor"]
+- ["PSo8NSCoding", "mrtLineName"]
+- ["PSo8NSCoding", "mrtStation"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "title"]
+- ["PSo8NSCoding", "updateValues"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "MRTLineNameLabel"]
+- ["PSo26NSExtensionRequestHandling", "MRTStationNameLabel"]
+- ["PSo26NSExtensionRequestHandling", "MRTStationNameTitle"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "isViewLoaded"]
+- ["PSo26NSExtensionRequestHandling", "mrtLineColor"]
+- ["PSo26NSExtensionRequestHandling", "mrtLineName"]
+- ["PSo26NSExtensionRequestHandling", "mrtStation"]
+- ["PSo26NSExtensionRequestHandling", "updateValues"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "Array"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "MRTLineNameLabel"]
+- ["CSo8NSObject", "MRTStation"]
+- ["CSo8NSObject", "MRTStationNameLabel"]
+- ["CSo8NSObject", "MRTStationNameTitle"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UINavigationItem"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isViewLoaded"]
+- ["CSo8NSObject", "mrtLineColor"]
+- ["CSo8NSObject", "mrtLineName"]
+- ["CSo8NSObject", "mrtStation"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "updateValues"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", "MRTLineNameLabel"]
+- ["PSo16NSObjectProtocol", "MRTStationNameLabel"]
+- ["PSo16NSObjectProtocol", "MRTStationNameTitle"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isViewLoaded"]
+- ["PSo16NSObjectProtocol", "mrtLineColor"]
+- ["PSo16NSObjectProtocol", "mrtLineName"]
+- ["PSo16NSObjectProtocol", "mrtStation"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", "updateValues"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "MRTLineNameLabel"]
+- ["PSo21UIAppearanceContainer", "MRTStationNameLabel"]
+- ["PSo21UIAppearanceContainer", "MRTStationNameTitle"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isViewLoaded"]
+- ["PSo21UIAppearanceContainer", "mrtLineColor"]
+- ["PSo21UIAppearanceContainer", "mrtLineName"]
+- ["PSo21UIAppearanceContainer", "mrtStation"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "updateValues"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "MRTLineNameLabel"]
+- ["PSo18UIContentContainer", "MRTStationNameLabel"]
+- ["PSo18UIContentContainer", "MRTStationNameTitle"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "isViewLoaded"]
+- ["PSo18UIContentContainer", "mrtLineColor"]
+- ["PSo18UIContentContainer", "mrtLineName"]
+- ["PSo18UIContentContainer", "mrtStation"]
+- ["PSo18UIContentContainer", "updateValues"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "MRTLineNameLabel"]
+- ["PSo18UIFocusEnvironment", "MRTStationNameLabel"]
+- ["PSo18UIFocusEnvironment", "MRTStationNameTitle"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isViewLoaded"]
+- ["PSo18UIFocusEnvironment", "mrtLineColor"]
+- ["PSo18UIFocusEnvironment", "mrtLineName"]
+- ["PSo18UIFocusEnvironment", "mrtStation"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "updateValues"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UILabel", "backgroundColor"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo16UINavigationItem", "title"]
+- ["CSo11UIResponder", "Array"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "MRTLineNameLabel"]
+- ["CSo11UIResponder", "MRTStation"]
+- ["CSo11UIResponder", "MRTStationNameLabel"]
+- ["CSo11UIResponder", "MRTStationNameTitle"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UINavigationItem"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isViewLoaded"]
+- ["CSo11UIResponder", "mrtLineColor"]
+- ["CSo11UIResponder", "mrtLineName"]
+- ["CSo11UIResponder", "mrtStation"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "updateValues"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- ["PSo16UIStateRestoring", "MRTLineNameLabel"]
+- ["PSo16UIStateRestoring", "MRTStationNameLabel"]
+- ["PSo16UIStateRestoring", "MRTStationNameTitle"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "isViewLoaded"]
+- ["PSo16UIStateRestoring", "mrtLineColor"]
+- ["PSo16UIStateRestoring", "mrtLineName"]
+- ["PSo16UIStateRestoring", "mrtStation"]
+- ["PSo16UIStateRestoring", "updateValues"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "MRTLineNameLabel"]
+- ["PSo18UITraitEnvironment", "MRTStationNameLabel"]
+- ["PSo18UITraitEnvironment", "MRTStationNameTitle"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isViewLoaded"]
+- ["PSo18UITraitEnvironment", "mrtLineColor"]
+- ["PSo18UITraitEnvironment", "mrtLineName"]
+- ["PSo18UITraitEnvironment", "mrtStation"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "updateValues"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "Array"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "MRTLineNameLabel"]
+- ["CSo16UIViewController", "MRTStation"]
+- ["CSo16UIViewController", "MRTStationNameLabel"]
+- ["CSo16UIViewController", "MRTStationNameTitle"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIColor"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UINavigationItem"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "isViewLoaded"]
+- ["CSo16UIViewController", "mrtLineColor"]
+- ["CSo16UIViewController", "mrtLineName"]
+- ["CSo16UIViewController", "mrtStation"]
+- ["CSo16UIViewController", "updateValues"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "subscript"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "backgroundColor"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps12_Reflectable", "text"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "V9Homework210MRTStation"
+- "C9Homework233MRTStationDetailViewControllerTwo"
+- !private "P12ObjectMapper8Mappable"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UILabel"
+- !private "CSo16UINavigationItem"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "56cec5bb6a01e6b4c1fb402c972a168c"

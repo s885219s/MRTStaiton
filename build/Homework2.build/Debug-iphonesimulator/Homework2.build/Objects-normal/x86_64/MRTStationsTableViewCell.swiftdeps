@@ -1,0 +1,269 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MRTStationTableViewCell"
+provides-nominal:
+- "C9Homework223MRTStationTableViewCell"
+provides-member:
+- ["C9Homework223MRTStationTableViewCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "MRTLineName2"
+- "MRTStationName"
+- "setSelected"
+- "MRTLineName1"
+depends-top-level:
+- "UILabel"
+- "Bool"
+- "UITableViewCell"
+- !private "UITableViewCellAccessoryType"
+- "MRTStationTableViewCell"
+depends-member:
+- ["Ps9AnyObject", "MRTLineName1"]
+- ["Ps9AnyObject", "MRTLineName2"]
+- ["Ps9AnyObject", "MRTStationName"]
+- !private ["Ps9AnyObject", "UITableViewCellAccessoryType"]
+- !private ["Ps9AnyObject", "accessoryType"]
+- ["Ps9AnyObject", "awakeFromNib"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "setSelected"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "MRTLineName1"]
+- ["Ps11CVarArgType", "MRTLineName2"]
+- ["Ps11CVarArgType", "MRTStationName"]
+- !private ["Ps11CVarArgType", "UITableViewCellAccessoryType"]
+- !private ["Ps11CVarArgType", "accessoryType"]
+- ["Ps11CVarArgType", "awakeFromNib"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "setSelected"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "MRTLineName1"]
+- ["Ps28CustomDebugStringConvertible", "MRTLineName2"]
+- ["Ps28CustomDebugStringConvertible", "MRTStationName"]
+- !private ["Ps28CustomDebugStringConvertible", "UITableViewCellAccessoryType"]
+- !private ["Ps28CustomDebugStringConvertible", "accessoryType"]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "setSelected"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "MRTLineName1"]
+- ["Ps23CustomStringConvertible", "MRTLineName2"]
+- ["Ps23CustomStringConvertible", "MRTStationName"]
+- !private ["Ps23CustomStringConvertible", "UITableViewCellAccessoryType"]
+- !private ["Ps23CustomStringConvertible", "accessoryType"]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "setSelected"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "DisclosureIndicator"]
+- ["Ps9Equatable", "MRTLineName1"]
+- ["Ps9Equatable", "MRTLineName2"]
+- ["Ps9Equatable", "MRTStationName"]
+- !private ["Ps9Equatable", "UITableViewCellAccessoryType"]
+- !private ["Ps9Equatable", "accessoryType"]
+- ["Ps9Equatable", "awakeFromNib"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "setSelected"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "DisclosureIndicator"]
+- ["Ps8Hashable", "MRTLineName1"]
+- ["Ps8Hashable", "MRTLineName2"]
+- ["Ps8Hashable", "MRTStationName"]
+- !private ["Ps8Hashable", "UITableViewCellAccessoryType"]
+- !private ["Ps8Hashable", "accessoryType"]
+- ["Ps8Hashable", "awakeFromNib"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "setSelected"]
+- ["Ps8Hashable", ""]
+- ["C9Homework223MRTStationTableViewCell", "Bool"]
+- ["C9Homework223MRTStationTableViewCell", "MRTLineName1"]
+- ["C9Homework223MRTStationTableViewCell", "MRTLineName2"]
+- ["C9Homework223MRTStationTableViewCell", "MRTStationName"]
+- ["C9Homework223MRTStationTableViewCell", "UILabel"]
+- !private ["C9Homework223MRTStationTableViewCell", "UITableViewCellAccessoryType"]
+- !private ["C9Homework223MRTStationTableViewCell", "accessoryType"]
+- ["C9Homework223MRTStationTableViewCell", "awakeFromNib"]
+- ["C9Homework223MRTStationTableViewCell", "deinit"]
+- ["C9Homework223MRTStationTableViewCell", "init"]
+- ["C9Homework223MRTStationTableViewCell", "setSelected"]
+- ["PSo8NSCoding", "MRTLineName1"]
+- ["PSo8NSCoding", "MRTLineName2"]
+- ["PSo8NSCoding", "MRTStationName"]
+- !private ["PSo8NSCoding", "UITableViewCellAccessoryType"]
+- !private ["PSo8NSCoding", "accessoryType"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "MRTLineName1"]
+- ["CSo8NSObject", "MRTLineName2"]
+- ["CSo8NSObject", "MRTStationName"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "UITableViewCellAccessoryType"]
+- !private ["CSo8NSObject", "accessoryType"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "setSelected"]
+- ["PSo16NSObjectProtocol", "MRTLineName1"]
+- ["PSo16NSObjectProtocol", "MRTLineName2"]
+- ["PSo16NSObjectProtocol", "MRTStationName"]
+- !private ["PSo16NSObjectProtocol", "UITableViewCellAccessoryType"]
+- !private ["PSo16NSObjectProtocol", "accessoryType"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps16RawRepresentable", "DisclosureIndicator"]
+- ["PSo29UIAccessibilityIdentification", "MRTLineName1"]
+- ["PSo29UIAccessibilityIdentification", "MRTLineName2"]
+- ["PSo29UIAccessibilityIdentification", "MRTStationName"]
+- !private ["PSo29UIAccessibilityIdentification", "UITableViewCellAccessoryType"]
+- !private ["PSo29UIAccessibilityIdentification", "accessoryType"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "MRTLineName1"]
+- ["PSo12UIAppearance", "MRTLineName2"]
+- ["PSo12UIAppearance", "MRTStationName"]
+- !private ["PSo12UIAppearance", "UITableViewCellAccessoryType"]
+- !private ["PSo12UIAppearance", "accessoryType"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "MRTLineName1"]
+- ["PSo21UIAppearanceContainer", "MRTLineName2"]
+- ["PSo21UIAppearanceContainer", "MRTStationName"]
+- !private ["PSo21UIAppearanceContainer", "UITableViewCellAccessoryType"]
+- !private ["PSo21UIAppearanceContainer", "accessoryType"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "MRTLineName1"]
+- ["PSo17UICoordinateSpace", "MRTLineName2"]
+- ["PSo17UICoordinateSpace", "MRTStationName"]
+- !private ["PSo17UICoordinateSpace", "UITableViewCellAccessoryType"]
+- !private ["PSo17UICoordinateSpace", "accessoryType"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "MRTLineName1"]
+- ["PSo13UIDynamicItem", "MRTLineName2"]
+- ["PSo13UIDynamicItem", "MRTStationName"]
+- !private ["PSo13UIDynamicItem", "UITableViewCellAccessoryType"]
+- !private ["PSo13UIDynamicItem", "accessoryType"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "MRTLineName1"]
+- ["PSo18UIFocusEnvironment", "MRTLineName2"]
+- ["PSo18UIFocusEnvironment", "MRTStationName"]
+- !private ["PSo18UIFocusEnvironment", "UITableViewCellAccessoryType"]
+- !private ["PSo18UIFocusEnvironment", "accessoryType"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "MRTLineName1"]
+- ["PSo27UIGestureRecognizerDelegate", "MRTLineName2"]
+- ["PSo27UIGestureRecognizerDelegate", "MRTStationName"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UITableViewCellAccessoryType"]
+- !private ["PSo27UIGestureRecognizerDelegate", "accessoryType"]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "MRTLineName1"]
+- ["CSo11UIResponder", "MRTLineName2"]
+- ["CSo11UIResponder", "MRTStationName"]
+- ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "UITableViewCellAccessoryType"]
+- !private ["CSo11UIResponder", "accessoryType"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "MRTLineName1"]
+- ["CSo15UITableViewCell", "MRTLineName2"]
+- ["CSo15UITableViewCell", "MRTStationName"]
+- ["CSo15UITableViewCell", "UILabel"]
+- !private ["CSo15UITableViewCell", "UITableViewCellAccessoryType"]
+- !private ["CSo15UITableViewCell", "accessoryType"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", ""]
+- !private ["OSC28UITableViewCellAccessoryType", "DisclosureIndicator"]
+- ["PSo18UITraitEnvironment", "MRTLineName1"]
+- ["PSo18UITraitEnvironment", "MRTLineName2"]
+- ["PSo18UITraitEnvironment", "MRTStationName"]
+- !private ["PSo18UITraitEnvironment", "UITableViewCellAccessoryType"]
+- !private ["PSo18UITraitEnvironment", "accessoryType"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "MRTLineName1"]
+- ["CSo6UIView", "MRTLineName2"]
+- ["CSo6UIView", "MRTStationName"]
+- ["CSo6UIView", "UILabel"]
+- !private ["CSo6UIView", "UITableViewCellAccessoryType"]
+- !private ["CSo6UIView", "accessoryType"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "setSelected"]
+- ["Ps12_Reflectable", "MRTLineName1"]
+- ["Ps12_Reflectable", "MRTLineName2"]
+- ["Ps12_Reflectable", "MRTStationName"]
+- !private ["Ps12_Reflectable", "UITableViewCellAccessoryType"]
+- !private ["Ps12_Reflectable", "accessoryType"]
+- ["Ps12_Reflectable", "awakeFromNib"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "setSelected"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C9Homework223MRTStationTableViewCell"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps16RawRepresentable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- !private "OSC28UITableViewCellAccessoryType"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "c18faf7c768521ddbf0a3db01e851baf"

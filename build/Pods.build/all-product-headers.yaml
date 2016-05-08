@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ObjectMapper-Swift.h",
+          'external-contents': "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectMapper-umbrella.h",
+          'external-contents': "/Users/Arick/Documents/swift/Homework2/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Arick/Documents/swift/Homework2/build/Pods.build/Debug-iphonesimulator/ObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/Pods_Homework2.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Homework2-umbrella.h",
+          'external-contents': "/Users/Arick/Documents/swift/Homework2/Pods/Target Support Files/Pods-Homework2/Pods-Homework2-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Homework2-Swift.h",
+          'external-contents': "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/Pods_Homework2.framework/Headers/Pods_Homework2-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/Pods_Homework2.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Arick/Documents/swift/Homework2/build/Pods.build/Debug-iphonesimulator/Pods-Homework2.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

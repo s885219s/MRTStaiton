@@ -1,0 +1,166 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MRTStationTableViewCell"
+provides-nominal:
+- "C9Homework223MRTStationTableViewCell"
+provides-member:
+- ["C9Homework223MRTStationTableViewCell", ""]
+provides-dynamic-lookup:
+- "MRTLineNum2"
+- "MRTStationName"
+- "MRTLineNum1"
+depends-top-level:
+- "MRTStationTableViewCell"
+- "UITableViewCell"
+- "UILabel"
+depends-member:
+- ["Ps9AnyObject", "MRTLineNum1"]
+- ["Ps9AnyObject", "MRTLineNum2"]
+- ["Ps9AnyObject", "MRTStationName"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "MRTLineNum1"]
+- ["Ps11CVarArgType", "MRTLineNum2"]
+- ["Ps11CVarArgType", "MRTStationName"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "MRTLineNum1"]
+- ["Ps28CustomDebugStringConvertible", "MRTLineNum2"]
+- ["Ps28CustomDebugStringConvertible", "MRTStationName"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "MRTLineNum1"]
+- ["Ps23CustomStringConvertible", "MRTLineNum2"]
+- ["Ps23CustomStringConvertible", "MRTStationName"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "MRTLineNum1"]
+- ["Ps9Equatable", "MRTLineNum2"]
+- ["Ps9Equatable", "MRTStationName"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "MRTLineNum1"]
+- ["Ps8Hashable", "MRTLineNum2"]
+- ["Ps8Hashable", "MRTStationName"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["C9Homework223MRTStationTableViewCell", "MRTLineNum1"]
+- ["C9Homework223MRTStationTableViewCell", "MRTLineNum2"]
+- ["C9Homework223MRTStationTableViewCell", "MRTStationName"]
+- ["C9Homework223MRTStationTableViewCell", "UILabel"]
+- ["C9Homework223MRTStationTableViewCell", "deinit"]
+- ["C9Homework223MRTStationTableViewCell", "init"]
+- ["PSo8NSCoding", "MRTLineNum1"]
+- ["PSo8NSCoding", "MRTLineNum2"]
+- ["PSo8NSCoding", "MRTStationName"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "MRTLineNum1"]
+- ["CSo8NSObject", "MRTLineNum2"]
+- ["CSo8NSObject", "MRTStationName"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "MRTLineNum1"]
+- ["PSo16NSObjectProtocol", "MRTLineNum2"]
+- ["PSo16NSObjectProtocol", "MRTStationName"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "MRTLineNum1"]
+- ["PSo29UIAccessibilityIdentification", "MRTLineNum2"]
+- ["PSo29UIAccessibilityIdentification", "MRTStationName"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "MRTLineNum1"]
+- ["PSo12UIAppearance", "MRTLineNum2"]
+- ["PSo12UIAppearance", "MRTStationName"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "MRTLineNum1"]
+- ["PSo21UIAppearanceContainer", "MRTLineNum2"]
+- ["PSo21UIAppearanceContainer", "MRTStationName"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "MRTLineNum1"]
+- ["PSo17UICoordinateSpace", "MRTLineNum2"]
+- ["PSo17UICoordinateSpace", "MRTStationName"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "MRTLineNum1"]
+- ["PSo13UIDynamicItem", "MRTLineNum2"]
+- ["PSo13UIDynamicItem", "MRTStationName"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "MRTLineNum1"]
+- ["PSo18UIFocusEnvironment", "MRTLineNum2"]
+- ["PSo18UIFocusEnvironment", "MRTStationName"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "MRTLineNum1"]
+- ["PSo27UIGestureRecognizerDelegate", "MRTLineNum2"]
+- ["PSo27UIGestureRecognizerDelegate", "MRTStationName"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "MRTLineNum1"]
+- ["CSo11UIResponder", "MRTLineNum2"]
+- ["CSo11UIResponder", "MRTStationName"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo15UITableViewCell", "MRTLineNum1"]
+- ["CSo15UITableViewCell", "MRTLineNum2"]
+- ["CSo15UITableViewCell", "MRTStationName"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "MRTLineNum1"]
+- ["PSo18UITraitEnvironment", "MRTLineNum2"]
+- ["PSo18UITraitEnvironment", "MRTStationName"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "MRTLineNum1"]
+- ["CSo6UIView", "MRTLineNum2"]
+- ["CSo6UIView", "MRTStationName"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "init"]
+- ["Ps12_Reflectable", "MRTLineNum1"]
+- ["Ps12_Reflectable", "MRTLineNum2"]
+- ["Ps12_Reflectable", "MRTStationName"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C9Homework223MRTStationTableViewCell"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "7dd38419adbc2bcb6f4e5855aba6bec6"

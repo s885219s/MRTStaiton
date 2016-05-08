@@ -1,0 +1,11 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "f5dd0b5968166b6b526b975a10ea723f"
+build_time: [516037114, 364915000]
+inputs:
+  "/Users/Arick/Documents/swift/Homework2/Homework2/MRTStationTableViewCell.swift": [515960002, 0]
+  "/Users/Arick/Documents/swift/Homework2/Homework2/MRTStationTableViewCellTwo.swift": [515961420, 0]
+  "/Users/Arick/Documents/swift/Homework2/Homework2/MRTStationDetailViewControllerTwo.swift": [516033624, 0]
+  "/Users/Arick/Documents/swift/Homework2/Homework2/MRTStationsListViewController.swift": [516037112, 0]
+  "/Users/Arick/Documents/swift/Homework2/Homework2/MRTStationDetailViewController.swift": [516034750, 0]
+  "/Users/Arick/Documents/swift/Homework2/Homework2/MRTStationsData.swift": [516033012, 0]
+  "/Users/Arick/Documents/swift/Homework2/Homework2/AppDelegate.swift": [515912569, 0]
