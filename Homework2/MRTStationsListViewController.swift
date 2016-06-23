@@ -96,15 +96,16 @@ class MRTStationsListViewController: UITableViewController {
             let mrtLine = self.MRTStationData.lines[indexPath.section]
             let mrtStation = self.MRTStationData.lines[indexPath.section].mrtStation[indexPath.row]
             let mrtLineNames = Array(mrtStation.lines.keys)
+            
             guard let detailViewController = segue.destinationViewController as? MRTStationDetailViewController else {
                 return
             }
             detailViewController.mrtStation = mrtStation
-            detailViewController.mrtLineName = mrtLineNames
             for mrtLineName in mrtLineNames{
                 if(mrtLineName==mrtLine.name){
                     for (lineName,lineColor) in lineColorDict{
                         if(mrtLineName==lineName){
+                            detailViewController.mrtLineName2 = lineName
                             detailViewController.mrtLineColor2 = lineColor
                         }
                     }
@@ -112,6 +113,7 @@ class MRTStationsListViewController: UITableViewController {
                     else{
                     for (lineName,lineColor) in lineColorDict{
                         if(mrtLineName==lineName){
+                            detailViewController.mrtLineName1 = lineName
                             detailViewController.mrtLineColor1 = lineColor
                         }
                     }

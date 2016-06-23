@@ -6,37 +6,37 @@ provides-nominal:
 provides-member:
 - ["C9Homework229MRTStationsListViewController", ""]
 provides-dynamic-lookup:
+- "prepareForSegue"
+- "numberOfSectionsInTableView"
 - "lineColorDict"
 - "viewDidLoad"
 - "tableView"
 - "tableView"
 - "tableView"
-- "prepareForSegue"
-- "numberOfSectionsInTableView"
 depends-top-level:
-- "UIStoryboardSegue"
-- !private "NSBundle"
-- "MRTStationsListViewController"
-- "UITableViewController"
-- !private "MRTStationDetailViewControllerTwo"
-- "Dictionary"
-- "Int"
-- "NSIndexPath"
-- !private "MRTStationDetailViewController"
-- "AnyObject"
-- "UITableView"
-- !private "MRTStationTableViewCellTwo"
-- !private "fatalError"
-- "MRTStationsData"
-- "StringLiteralType"
-- "UIColor"
-- "UITableViewCell"
-- !private "Array"
-- "String"
 - !private "=="
-- !private "MRTStationTableViewCell"
+- "Dictionary"
+- !private "NSBundle"
 - "/"
+- "MRTStationsData"
 - !private "print"
+- "UITableViewController"
+- "String"
+- !private "Array"
+- "StringLiteralType"
+- "UITableViewCell"
+- !private "MRTStationDetailViewController"
+- !private "MRTStationDetailViewControllerTwo"
+- !private "fatalError"
+- "UIStoryboardSegue"
+- "UITableView"
+- !private "MRTStationTableViewCell"
+- "UIColor"
+- "AnyObject"
+- "NSIndexPath"
+- "Int"
+- "MRTStationsListViewController"
+- !private "MRTStationTableViewCellTwo"
 depends-member:
 - !private ["Ps9AnyObject", "Array"]
 - !private ["Ps9AnyObject", "MRTLineNum1"]
@@ -59,6 +59,8 @@ depends-member:
 - !private ["Ps9AnyObject", "mrtLineColor1"]
 - !private ["Ps9AnyObject", "mrtLineColor2"]
 - !private ["Ps9AnyObject", "mrtLineName"]
+- !private ["Ps9AnyObject", "mrtLineName1"]
+- !private ["Ps9AnyObject", "mrtLineName2"]
 - !private ["Ps9AnyObject", "mrtStation"]
 - ["Ps9AnyObject", "numberOfSectionsInTableView"]
 - !private ["Ps9AnyObject", "pathForResource"]
@@ -120,6 +122,8 @@ depends-member:
 - !private ["Ps11CVarArgType", "mrtLineColor1"]
 - !private ["Ps11CVarArgType", "mrtLineColor2"]
 - !private ["Ps11CVarArgType", "mrtLineName"]
+- !private ["Ps11CVarArgType", "mrtLineName1"]
+- !private ["Ps11CVarArgType", "mrtLineName2"]
 - !private ["Ps11CVarArgType", "mrtStation"]
 - ["Ps11CVarArgType", "numberOfSectionsInTableView"]
 - !private ["Ps11CVarArgType", "pathForResource"]
@@ -175,6 +179,8 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "mrtLineColor1"]
 - !private ["Ps28CustomDebugStringConvertible", "mrtLineColor2"]
 - !private ["Ps28CustomDebugStringConvertible", "mrtLineName"]
+- !private ["Ps28CustomDebugStringConvertible", "mrtLineName1"]
+- !private ["Ps28CustomDebugStringConvertible", "mrtLineName2"]
 - !private ["Ps28CustomDebugStringConvertible", "mrtStation"]
 - ["Ps28CustomDebugStringConvertible", "numberOfSectionsInTableView"]
 - !private ["Ps28CustomDebugStringConvertible", "pathForResource"]
@@ -220,6 +226,8 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "mrtLineColor1"]
 - !private ["Ps23CustomStringConvertible", "mrtLineColor2"]
 - !private ["Ps23CustomStringConvertible", "mrtLineName"]
+- !private ["Ps23CustomStringConvertible", "mrtLineName1"]
+- !private ["Ps23CustomStringConvertible", "mrtLineName2"]
 - !private ["Ps23CustomStringConvertible", "mrtStation"]
 - ["Ps23CustomStringConvertible", "numberOfSectionsInTableView"]
 - !private ["Ps23CustomStringConvertible", "pathForResource"]
@@ -279,6 +287,8 @@ depends-member:
 - !private ["Ps9Equatable", "mrtLineColor1"]
 - !private ["Ps9Equatable", "mrtLineColor2"]
 - !private ["Ps9Equatable", "mrtLineName"]
+- !private ["Ps9Equatable", "mrtLineName1"]
+- !private ["Ps9Equatable", "mrtLineName2"]
 - !private ["Ps9Equatable", "mrtStation"]
 - ["Ps9Equatable", "numberOfSectionsInTableView"]
 - !private ["Ps9Equatable", "pathForResource"]
@@ -318,6 +328,8 @@ depends-member:
 - !private ["Ps8Hashable", "mrtLineColor1"]
 - !private ["Ps8Hashable", "mrtLineColor2"]
 - !private ["Ps8Hashable", "mrtLineName"]
+- !private ["Ps8Hashable", "mrtLineName1"]
+- !private ["Ps8Hashable", "mrtLineName2"]
 - !private ["Ps8Hashable", "mrtStation"]
 - ["Ps8Hashable", "numberOfSectionsInTableView"]
 - !private ["Ps8Hashable", "pathForResource"]
@@ -359,7 +371,8 @@ depends-member:
 - !private ["V9Homework210MRTStation", "name"]
 - !private ["C9Homework230MRTStationDetailViewController", "mrtLineColor1"]
 - !private ["C9Homework230MRTStationDetailViewController", "mrtLineColor2"]
-- !private ["C9Homework230MRTStationDetailViewController", "mrtLineName"]
+- !private ["C9Homework230MRTStationDetailViewController", "mrtLineName1"]
+- !private ["C9Homework230MRTStationDetailViewController", "mrtLineName2"]
 - !private ["C9Homework230MRTStationDetailViewController", "mrtStation"]
 - !private ["C9Homework233MRTStationDetailViewControllerTwo", "mrtLineColor"]
 - !private ["C9Homework233MRTStationDetailViewControllerTwo", "mrtLineName"]
@@ -442,6 +455,8 @@ depends-member:
 - !private ["PSo8NSCoding", "mrtLineColor1"]
 - !private ["PSo8NSCoding", "mrtLineColor2"]
 - !private ["PSo8NSCoding", "mrtLineName"]
+- !private ["PSo8NSCoding", "mrtLineName1"]
+- !private ["PSo8NSCoding", "mrtLineName2"]
 - !private ["PSo8NSCoding", "mrtStation"]
 - ["PSo8NSCoding", "numberOfSectionsInTableView"]
 - ["PSo8NSCoding", "prepareForSegue"]
@@ -467,6 +482,8 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "mrtLineColor1"]
 - !private ["PSo26NSExtensionRequestHandling", "mrtLineColor2"]
 - !private ["PSo26NSExtensionRequestHandling", "mrtLineName"]
+- !private ["PSo26NSExtensionRequestHandling", "mrtLineName1"]
+- !private ["PSo26NSExtensionRequestHandling", "mrtLineName2"]
 - !private ["PSo26NSExtensionRequestHandling", "mrtStation"]
 - ["PSo26NSExtensionRequestHandling", "numberOfSectionsInTableView"]
 - ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
@@ -508,6 +525,8 @@ depends-member:
 - !private ["CSo8NSObject", "mrtLineColor1"]
 - !private ["CSo8NSObject", "mrtLineColor2"]
 - !private ["CSo8NSObject", "mrtLineName"]
+- !private ["CSo8NSObject", "mrtLineName1"]
+- !private ["CSo8NSObject", "mrtLineName2"]
 - !private ["CSo8NSObject", "mrtStation"]
 - ["CSo8NSObject", "numberOfSectionsInTableView"]
 - !private ["CSo8NSObject", "pathForResource"]
@@ -539,6 +558,8 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "mrtLineColor1"]
 - !private ["PSo16NSObjectProtocol", "mrtLineColor2"]
 - !private ["PSo16NSObjectProtocol", "mrtLineName"]
+- !private ["PSo16NSObjectProtocol", "mrtLineName1"]
+- !private ["PSo16NSObjectProtocol", "mrtLineName2"]
 - !private ["PSo16NSObjectProtocol", "mrtStation"]
 - ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
 - !private ["PSo16NSObjectProtocol", "pathForResource"]
@@ -621,6 +642,8 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "mrtLineColor1"]
 - !private ["PSo21UIAppearanceContainer", "mrtLineColor2"]
 - !private ["PSo21UIAppearanceContainer", "mrtLineName"]
+- !private ["PSo21UIAppearanceContainer", "mrtLineName1"]
+- !private ["PSo21UIAppearanceContainer", "mrtLineName2"]
 - !private ["PSo21UIAppearanceContainer", "mrtStation"]
 - ["PSo21UIAppearanceContainer", "numberOfSectionsInTableView"]
 - ["PSo21UIAppearanceContainer", "prepareForSegue"]
@@ -642,6 +665,8 @@ depends-member:
 - !private ["PSo18UIContentContainer", "mrtLineColor1"]
 - !private ["PSo18UIContentContainer", "mrtLineColor2"]
 - !private ["PSo18UIContentContainer", "mrtLineName"]
+- !private ["PSo18UIContentContainer", "mrtLineName1"]
+- !private ["PSo18UIContentContainer", "mrtLineName2"]
 - !private ["PSo18UIContentContainer", "mrtStation"]
 - ["PSo18UIContentContainer", "numberOfSectionsInTableView"]
 - ["PSo18UIContentContainer", "prepareForSegue"]
@@ -681,6 +706,8 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "mrtLineColor1"]
 - !private ["PSo18UIFocusEnvironment", "mrtLineColor2"]
 - !private ["PSo18UIFocusEnvironment", "mrtLineName"]
+- !private ["PSo18UIFocusEnvironment", "mrtLineName1"]
+- !private ["PSo18UIFocusEnvironment", "mrtLineName2"]
 - !private ["PSo18UIFocusEnvironment", "mrtStation"]
 - ["PSo18UIFocusEnvironment", "numberOfSectionsInTableView"]
 - ["PSo18UIFocusEnvironment", "prepareForSegue"]
@@ -723,6 +750,8 @@ depends-member:
 - !private ["CSo11UIResponder", "mrtLineColor1"]
 - !private ["CSo11UIResponder", "mrtLineColor2"]
 - !private ["CSo11UIResponder", "mrtLineName"]
+- !private ["CSo11UIResponder", "mrtLineName1"]
+- !private ["CSo11UIResponder", "mrtLineName2"]
 - !private ["CSo11UIResponder", "mrtStation"]
 - ["CSo11UIResponder", "numberOfSectionsInTableView"]
 - ["CSo11UIResponder", "prepareForSegue"]
@@ -758,6 +787,8 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "mrtLineColor1"]
 - !private ["PSo16UIStateRestoring", "mrtLineColor2"]
 - !private ["PSo16UIStateRestoring", "mrtLineName"]
+- !private ["PSo16UIStateRestoring", "mrtLineName1"]
+- !private ["PSo16UIStateRestoring", "mrtLineName2"]
 - !private ["PSo16UIStateRestoring", "mrtStation"]
 - ["PSo16UIStateRestoring", "numberOfSectionsInTableView"]
 - ["PSo16UIStateRestoring", "prepareForSegue"]
@@ -844,6 +875,8 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "mrtLineColor1"]
 - !private ["PSo18UITraitEnvironment", "mrtLineColor2"]
 - !private ["PSo18UITraitEnvironment", "mrtLineName"]
+- !private ["PSo18UITraitEnvironment", "mrtLineName1"]
+- !private ["PSo18UITraitEnvironment", "mrtLineName2"]
 - !private ["PSo18UITraitEnvironment", "mrtStation"]
 - ["PSo18UITraitEnvironment", "numberOfSectionsInTableView"]
 - ["PSo18UITraitEnvironment", "prepareForSegue"]
@@ -883,6 +916,8 @@ depends-member:
 - !private ["CSo16UIViewController", "mrtLineColor1"]
 - !private ["CSo16UIViewController", "mrtLineColor2"]
 - !private ["CSo16UIViewController", "mrtLineName"]
+- !private ["CSo16UIViewController", "mrtLineName1"]
+- !private ["CSo16UIViewController", "mrtLineName2"]
 - !private ["CSo16UIViewController", "mrtStation"]
 - ["CSo16UIViewController", "numberOfSectionsInTableView"]
 - ["CSo16UIViewController", "prepareForSegue"]

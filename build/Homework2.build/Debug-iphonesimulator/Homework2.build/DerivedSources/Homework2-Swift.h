@@ -123,6 +123,8 @@ SWIFT_CLASS("_TtC9Homework230MRTStationDetailViewController")
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull mrtLineName;
 @property (nonatomic, strong) UIColor * _Nullable mrtLineColor1;
 @property (nonatomic, strong) UIColor * _Nullable mrtLineColor2;
+@property (nonatomic, copy) NSString * _Nullable mrtLineName1;
+@property (nonatomic, copy) NSString * _Nullable mrtLineName2;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)updateValues;

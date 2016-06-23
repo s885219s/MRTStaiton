@@ -6,25 +6,27 @@ provides-nominal:
 provides-member:
 - ["C9Homework230MRTStationDetailViewController", ""]
 provides-dynamic-lookup:
-- "viewWillAppear"
-- "MRTStationNameLabel"
-- "MRTLineNameLabel2"
-- "mrtLineColor2"
-- "mrtLineName"
-- "MRTStationTitle"
 - "mrtLineColor1"
+- "MRTStationNameLabel"
 - "viewDidLoad"
-- "MRTLineNameLabel1"
+- "mrtLineName1"
+- "MRTLineNameLabel2"
+- "MRTStationTitle"
+- "mrtLineColor2"
+- "viewWillAppear"
 - "updateValues"
+- "MRTLineNameLabel1"
+- "mrtLineName"
+- "mrtLineName2"
 depends-top-level:
+- "Bool"
+- "MRTStationDetailViewController"
 - "UILabel"
-- "UIColor"
+- "MRTStation"
 - "UIViewController"
 - "String"
-- "MRTStationDetailViewController"
 - "UINavigationItem"
-- "Bool"
-- "MRTStation"
+- "UIColor"
 depends-member:
 - ["Ps9AnyObject", "MRTLineNameLabel1"]
 - ["Ps9AnyObject", "MRTLineNameLabel2"]
@@ -36,6 +38,8 @@ depends-member:
 - ["Ps9AnyObject", "mrtLineColor1"]
 - ["Ps9AnyObject", "mrtLineColor2"]
 - ["Ps9AnyObject", "mrtLineName"]
+- ["Ps9AnyObject", "mrtLineName1"]
+- ["Ps9AnyObject", "mrtLineName2"]
 - ["Ps9AnyObject", "mrtStation"]
 - !private ["Ps9AnyObject", "text"]
 - !private ["Ps9AnyObject", "title"]
@@ -43,8 +47,6 @@ depends-member:
 - ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", "viewWillAppear"]
 - ["Ps9AnyObject", ""]
-- !private ["Sa", "subscript"]
-- !private ["Ps23ArrayLiteralConvertible", "subscript"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
@@ -58,6 +60,8 @@ depends-member:
 - ["Ps11CVarArgType", "mrtLineColor1"]
 - ["Ps11CVarArgType", "mrtLineColor2"]
 - ["Ps11CVarArgType", "mrtLineName"]
+- ["Ps11CVarArgType", "mrtLineName1"]
+- ["Ps11CVarArgType", "mrtLineName2"]
 - ["Ps11CVarArgType", "mrtStation"]
 - !private ["Ps11CVarArgType", "text"]
 - !private ["Ps11CVarArgType", "title"]
@@ -65,11 +69,6 @@ depends-member:
 - ["Ps11CVarArgType", "viewDidLoad"]
 - ["Ps11CVarArgType", "viewWillAppear"]
 - ["Ps11CVarArgType", ""]
-- !private ["Ps14CollectionType", "Generator"]
-- !private ["Ps14CollectionType", "Index"]
-- !private ["Ps14CollectionType", "SubSequence"]
-- !private ["Ps14CollectionType", "_Element"]
-- !private ["Ps14CollectionType", "subscript"]
 - ["Ps28CustomDebugStringConvertible", "MRTLineNameLabel1"]
 - ["Ps28CustomDebugStringConvertible", "MRTLineNameLabel2"]
 - ["Ps28CustomDebugStringConvertible", "MRTStationNameLabel"]
@@ -80,8 +79,9 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "mrtLineColor1"]
 - ["Ps28CustomDebugStringConvertible", "mrtLineColor2"]
 - ["Ps28CustomDebugStringConvertible", "mrtLineName"]
+- ["Ps28CustomDebugStringConvertible", "mrtLineName1"]
+- ["Ps28CustomDebugStringConvertible", "mrtLineName2"]
 - ["Ps28CustomDebugStringConvertible", "mrtStation"]
-- !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - !private ["Ps28CustomDebugStringConvertible", "text"]
 - !private ["Ps28CustomDebugStringConvertible", "title"]
 - ["Ps28CustomDebugStringConvertible", "updateValues"]
@@ -99,8 +99,9 @@ depends-member:
 - ["Ps23CustomStringConvertible", "mrtLineColor1"]
 - ["Ps23CustomStringConvertible", "mrtLineColor2"]
 - ["Ps23CustomStringConvertible", "mrtLineName"]
+- ["Ps23CustomStringConvertible", "mrtLineName1"]
+- ["Ps23CustomStringConvertible", "mrtLineName2"]
 - ["Ps23CustomStringConvertible", "mrtStation"]
-- !private ["Ps23CustomStringConvertible", "subscript"]
 - !private ["Ps23CustomStringConvertible", "text"]
 - !private ["Ps23CustomStringConvertible", "title"]
 - ["Ps23CustomStringConvertible", "updateValues"]
@@ -118,6 +119,8 @@ depends-member:
 - ["Ps9Equatable", "mrtLineColor1"]
 - ["Ps9Equatable", "mrtLineColor2"]
 - ["Ps9Equatable", "mrtLineName"]
+- ["Ps9Equatable", "mrtLineName1"]
+- ["Ps9Equatable", "mrtLineName2"]
 - ["Ps9Equatable", "mrtStation"]
 - !private ["Ps9Equatable", "text"]
 - !private ["Ps9Equatable", "title"]
@@ -125,7 +128,6 @@ depends-member:
 - ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", "viewWillAppear"]
 - ["Ps9Equatable", ""]
-- !private ["Ps13GeneratorType", "Element"]
 - ["Ps8Hashable", "MRTLineNameLabel1"]
 - ["Ps8Hashable", "MRTLineNameLabel2"]
 - ["Ps8Hashable", "MRTStationNameLabel"]
@@ -137,6 +139,8 @@ depends-member:
 - ["Ps8Hashable", "mrtLineColor1"]
 - ["Ps8Hashable", "mrtLineColor2"]
 - ["Ps8Hashable", "mrtLineName"]
+- ["Ps8Hashable", "mrtLineName1"]
+- ["Ps8Hashable", "mrtLineName2"]
 - ["Ps8Hashable", "mrtStation"]
 - !private ["Ps8Hashable", "text"]
 - !private ["Ps8Hashable", "title"]
@@ -144,12 +148,6 @@ depends-member:
 - ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", "viewWillAppear"]
 - ["Ps8Hashable", ""]
-- !private ["Ps9Indexable", "Generator"]
-- !private ["Ps9Indexable", "Index"]
-- !private ["Ps9Indexable", "SubSequence"]
-- !private ["Ps9Indexable", "_Element"]
-- !private ["Ps9Indexable", "subscript"]
-- !private ["Vs17IndexingGenerator", "Element"]
 - !private ["V9Homework210MRTStation", "name"]
 - ["C9Homework230MRTStationDetailViewController", "Bool"]
 - ["C9Homework230MRTStationDetailViewController", "MRTLineNameLabel1"]
@@ -167,14 +165,13 @@ depends-member:
 - ["C9Homework230MRTStationDetailViewController", "mrtLineColor1"]
 - ["C9Homework230MRTStationDetailViewController", "mrtLineColor2"]
 - ["C9Homework230MRTStationDetailViewController", "mrtLineName"]
+- ["C9Homework230MRTStationDetailViewController", "mrtLineName1"]
+- ["C9Homework230MRTStationDetailViewController", "mrtLineName2"]
 - ["C9Homework230MRTStationDetailViewController", "mrtStation"]
 - ["C9Homework230MRTStationDetailViewController", "updateValues"]
 - ["C9Homework230MRTStationDetailViewController", "viewDidLoad"]
 - ["C9Homework230MRTStationDetailViewController", "viewWillAppear"]
 - !private ["P12ObjectMapper8Mappable", "name"]
-- !private ["Ps21MutableCollectionType", "subscript"]
-- !private ["Ps16MutableIndexable", "subscript"]
-- !private ["Ps16MutableSliceable", "subscript"]
 - ["PSo8NSCoding", "MRTLineNameLabel1"]
 - ["PSo8NSCoding", "MRTLineNameLabel2"]
 - ["PSo8NSCoding", "MRTStationNameLabel"]
@@ -185,6 +182,8 @@ depends-member:
 - ["PSo8NSCoding", "mrtLineColor1"]
 - ["PSo8NSCoding", "mrtLineColor2"]
 - ["PSo8NSCoding", "mrtLineName"]
+- ["PSo8NSCoding", "mrtLineName1"]
+- ["PSo8NSCoding", "mrtLineName2"]
 - ["PSo8NSCoding", "mrtStation"]
 - !private ["PSo8NSCoding", "text"]
 - !private ["PSo8NSCoding", "title"]
@@ -201,6 +200,8 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "mrtLineColor1"]
 - ["PSo26NSExtensionRequestHandling", "mrtLineColor2"]
 - ["PSo26NSExtensionRequestHandling", "mrtLineName"]
+- ["PSo26NSExtensionRequestHandling", "mrtLineName1"]
+- ["PSo26NSExtensionRequestHandling", "mrtLineName2"]
 - ["PSo26NSExtensionRequestHandling", "mrtStation"]
 - ["PSo26NSExtensionRequestHandling", "updateValues"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
@@ -222,6 +223,8 @@ depends-member:
 - ["CSo8NSObject", "mrtLineColor1"]
 - ["CSo8NSObject", "mrtLineColor2"]
 - ["CSo8NSObject", "mrtLineName"]
+- ["CSo8NSObject", "mrtLineName1"]
+- ["CSo8NSObject", "mrtLineName2"]
 - ["CSo8NSObject", "mrtStation"]
 - !private ["CSo8NSObject", "text"]
 - !private ["CSo8NSObject", "title"]
@@ -238,6 +241,8 @@ depends-member:
 - ["PSo16NSObjectProtocol", "mrtLineColor1"]
 - ["PSo16NSObjectProtocol", "mrtLineColor2"]
 - ["PSo16NSObjectProtocol", "mrtLineName"]
+- ["PSo16NSObjectProtocol", "mrtLineName1"]
+- ["PSo16NSObjectProtocol", "mrtLineName2"]
 - ["PSo16NSObjectProtocol", "mrtStation"]
 - !private ["PSo16NSObjectProtocol", "text"]
 - !private ["PSo16NSObjectProtocol", "title"]
@@ -245,17 +250,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "viewWillAppear"]
 - ["PSo16NSObjectProtocol", ""]
-- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
-- !private ["Ps12SequenceType", "Element"]
-- !private ["Ps12SequenceType", "Generator"]
-- !private ["Ps12SequenceType", "Index"]
-- !private ["Ps12SequenceType", "SubSequence"]
-- !private ["Ps12SequenceType", "_Element"]
-- !private ["Ps12SequenceType", "subscript"]
-- !private ["Vs5Slice", "Generator"]
-- !private ["Vs5Slice", "Index"]
-- !private ["Vs5Slice", "SubSequence"]
-- !private ["Vs5Slice", "_Element"]
 - !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo12UIAppearance", "backgroundColor"]
@@ -270,6 +264,8 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "mrtLineColor1"]
 - ["PSo21UIAppearanceContainer", "mrtLineColor2"]
 - ["PSo21UIAppearanceContainer", "mrtLineName"]
+- ["PSo21UIAppearanceContainer", "mrtLineName1"]
+- ["PSo21UIAppearanceContainer", "mrtLineName2"]
 - ["PSo21UIAppearanceContainer", "mrtStation"]
 - !private ["PSo21UIAppearanceContainer", "text"]
 - ["PSo21UIAppearanceContainer", "updateValues"]
@@ -285,6 +281,8 @@ depends-member:
 - ["PSo18UIContentContainer", "mrtLineColor1"]
 - ["PSo18UIContentContainer", "mrtLineColor2"]
 - ["PSo18UIContentContainer", "mrtLineName"]
+- ["PSo18UIContentContainer", "mrtLineName1"]
+- ["PSo18UIContentContainer", "mrtLineName2"]
 - ["PSo18UIContentContainer", "mrtStation"]
 - ["PSo18UIContentContainer", "updateValues"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
@@ -304,6 +302,8 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "mrtLineColor1"]
 - ["PSo18UIFocusEnvironment", "mrtLineColor2"]
 - ["PSo18UIFocusEnvironment", "mrtLineName"]
+- ["PSo18UIFocusEnvironment", "mrtLineName1"]
+- ["PSo18UIFocusEnvironment", "mrtLineName2"]
 - ["PSo18UIFocusEnvironment", "mrtStation"]
 - !private ["PSo18UIFocusEnvironment", "text"]
 - ["PSo18UIFocusEnvironment", "updateValues"]
@@ -329,6 +329,8 @@ depends-member:
 - ["CSo11UIResponder", "mrtLineColor1"]
 - ["CSo11UIResponder", "mrtLineColor2"]
 - ["CSo11UIResponder", "mrtLineName"]
+- ["CSo11UIResponder", "mrtLineName1"]
+- ["CSo11UIResponder", "mrtLineName2"]
 - ["CSo11UIResponder", "mrtStation"]
 - !private ["CSo11UIResponder", "text"]
 - ["CSo11UIResponder", "updateValues"]
@@ -343,6 +345,8 @@ depends-member:
 - ["PSo16UIStateRestoring", "mrtLineColor1"]
 - ["PSo16UIStateRestoring", "mrtLineColor2"]
 - ["PSo16UIStateRestoring", "mrtLineName"]
+- ["PSo16UIStateRestoring", "mrtLineName1"]
+- ["PSo16UIStateRestoring", "mrtLineName2"]
 - ["PSo16UIStateRestoring", "mrtStation"]
 - ["PSo16UIStateRestoring", "updateValues"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
@@ -358,6 +362,8 @@ depends-member:
 - ["PSo18UITraitEnvironment", "mrtLineColor1"]
 - ["PSo18UITraitEnvironment", "mrtLineColor2"]
 - ["PSo18UITraitEnvironment", "mrtLineName"]
+- ["PSo18UITraitEnvironment", "mrtLineName1"]
+- ["PSo18UITraitEnvironment", "mrtLineName2"]
 - ["PSo18UITraitEnvironment", "mrtStation"]
 - !private ["PSo18UITraitEnvironment", "text"]
 - ["PSo18UITraitEnvironment", "updateValues"]
@@ -381,49 +387,35 @@ depends-member:
 - ["CSo16UIViewController", "mrtLineColor1"]
 - ["CSo16UIViewController", "mrtLineColor2"]
 - ["CSo16UIViewController", "mrtLineName"]
+- ["CSo16UIViewController", "mrtLineName1"]
+- ["CSo16UIViewController", "mrtLineName2"]
 - ["CSo16UIViewController", "mrtStation"]
 - ["CSo16UIViewController", "updateValues"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", "viewWillAppear"]
 - ["CSo16UIViewController", ""]
-- !private ["Ps10_ArrayType", "subscript"]
 - !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps24_DestructorSafeContainer", "subscript"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
 - !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["Ps12_Reflectable", "backgroundColor"]
-- !private ["Ps12_Reflectable", "subscript"]
 - !private ["Ps12_Reflectable", "text"]
 depends-nominal:
 - "Ps9AnyObject"
-- !private "Sa"
-- !private "Ps23ArrayLiteralConvertible"
 - !private "Sb"
 - !private "Ps25BooleanLiteralConvertible"
 - !private "Ps11BooleanType"
 - "Ps11CVarArgType"
-- !private "Ps14CollectionType"
 - "Ps28CustomDebugStringConvertible"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
-- !private "Ps13GeneratorType"
 - "Ps8Hashable"
-- !private "Ps9Indexable"
-- !private "Vs17IndexingGenerator"
 - !private "V9Homework210MRTStation"
 - "C9Homework230MRTStationDetailViewController"
 - !private "P12ObjectMapper8Mappable"
-- !private "Ps21MutableCollectionType"
-- !private "Ps16MutableIndexable"
-- !private "Ps16MutableSliceable"
 - "PSo8NSCoding"
 - "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
-- !private "Ps30RangeReplaceableCollectionType"
-- !private "Ps12SequenceType"
-- !private "Vs5Slice"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
@@ -438,9 +430,7 @@ depends-nominal:
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"
-- !private "Ps10_ArrayType"
 - !private "Ps33_BuiltinBooleanLiteralConvertible"
-- !private "Ps24_DestructorSafeContainer"
 - !private "Ps21_ObjectiveCBridgeable"
 - !private "Ps12_Reflectable"
 depends-dynamic-lookup:
@@ -457,4 +447,4 @@ depends-external:
 - "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
 - "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
 - "/Users/Arick/Documents/swift/Homework2/build/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
-interface-hash: "18cdd509cba4788b06a88da0522ff7f3"
+interface-hash: "7909f42cfb2316ba03da4285bfc8b305"

@@ -17,6 +17,8 @@ class MRTStationDetailViewController: UIViewController {
     var mrtLineName : [String] = []
     var mrtLineColor1 : UIColor?
     var mrtLineColor2 : UIColor?
+    var mrtLineName1 : String?
+    var mrtLineName2 : String?
     var mrtStation: MRTStation?{
         didSet {
             self.updateValues()
@@ -37,8 +39,8 @@ class MRTStationDetailViewController: UIViewController {
         
         self.MRTStationTitle.title = mrtStation?.name
         self.MRTStationNameLabel.text = mrtStation?.name
-        self.MRTLineNameLabel1.text = mrtLineName[0]
-        self.MRTLineNameLabel2.text = mrtLineName[1]
+        self.MRTLineNameLabel1.text = mrtLineName1
+        self.MRTLineNameLabel2.text = mrtLineName2
         self.MRTLineNameLabel1.backgroundColor = mrtLineColor1
         self.MRTLineNameLabel2.backgroundColor = mrtLineColor2
     }
